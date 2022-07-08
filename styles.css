@@ -1,1 +1,63 @@
-
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hotpink;
+}
+.onesttext{
+    background-color: chartreuse;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80%;
+}
+ .img{
+    width: 80%;
+    height: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   display: block;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+ }
+ .photoheading{
+    height: auto;
+    min-height: 25px;
+      text-align: center;
+       background-color: black; 
+       color: cornsilk;
+       width: 80%;
+       margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0%;
+      margin-bottom: 0%;      
+ }
+ #firsttext{
+     text-align: left;
+     margin-left: 5%;
+     margin-bottom: 40px;
+     margin-top:40px ;
+     margin-left: 10%;
+    margin-right: 10%;
+     
+ }
+     .firstid {
+       width: 50%;
+       height: 10pc;
+       padding-top: 1.5pc;
+       background-color: lightsalmon;
+       position: relative;
+       animation-name: example;
+       animation-duration: 3s;
+       animation-iteration-count: infinite;
+       text-align: center;
+       color: chartreuse;
+       animation-direction: alternate-reverse;
+     }
+     
+     @keyframes example {
+       from   {background-color:lightsalmon; left:10%; right: 20%;  top:20px;}
+       to {background-color:orange; left:40%; right: 50%; top:20px;}
+     }
