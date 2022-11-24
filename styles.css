@@ -1,44 +1,84 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: hotpink;
+    background-color:aliceblue;
 }
+
+
 .onesttext{
-    background-color: chartreuse;
-    margin-top: 0px;
+    background-image: url("https://w0.peakpx.com/wallpaper/795/316/HD-wallpaper-winter-autumn-beautiful-beauty-forest-landscapes-nature-scenery-thumbnail.jpg");
+    margin-top: 1px;
     margin-bottom: 0px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 80%;
+    height: 600px;
+
+    /* text-align: center; */
+}
+.firsttext{
+    
+    background-color: #e0dedc;
+    width: 30%;
+    height: 420px;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 50px;
+    
+}
+.btn{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
  .img{
     width: 80%;
-    height: 60%;
+    height: 500px;
     margin-top: 0px;
     margin-bottom: 0px;
-   display: block;
+    display: block;
     background-repeat: no-repeat;
     margin-left: 10%;
     margin-right: 10%;
     
  }
+ .photoheadingg{
+    height: auto;
+    font-size: 30px;
+    min-height: 25px;
+    text-align: center;
+    background-color: #1d1e26; 
+    color: cornsilk;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom:0%;      
+ }
  .photoheading{
     height: auto;
     min-height: 25px;
-      text-align: center;
-       background-color: black; 
-       color: cornsilk;
-       width: 80%;
-       margin-left: 10%;
-      margin-right: 10%;
-      margin-top: 0%;
-      margin-bottom: 0%;      
+    text-align: center;
+    background-color: #1d1e26; 
+    color: cornsilk;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -19px;
+    margin-bottom: -18px;  
+
  }
  #firsttext{
      text-align: left;
-     margin-left: 5%;
      margin-bottom: 40px;
-     margin-top:40px ;
+     margin-top:1px ;
      margin-left: 10%;
     margin-right: 10%;
      
@@ -57,7 +97,3 @@ body{
        animation-direction: alternate-reverse;
      }
      
-     @keyframes example {
-       from   {background-color:lightsalmon; left:10%; right: 20%;  top:20px;}
-       to {background-color:orange; left:40%; right: 50%; top:20px;}
-     }
